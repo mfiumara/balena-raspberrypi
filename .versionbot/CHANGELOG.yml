@@ -1,4 +1,19 @@
 - commits:
+    - subject: Enable the rpivid-mem kernel module
+      hash: 107ba77ccead98cd2bbad4fde760a684e4ef6529
+      body: |
+        This was requested by customer.
+      footer:
+        Fixes: '#453'
+        fixes: '#453'
+        Changelog-entry: Enable the rpivid-mem kernel module
+        changelog-entry: Enable the rpivid-mem kernel module
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.47.0+rev6
+  date: 2020-02-07T00:19:55.457Z
+- commits:
     - subject: Add the uart2 to uart5 overlays to rootfs
       hash: 99d3f32decd23e752d53147f3bc580a99fdf9efe
       body: |
