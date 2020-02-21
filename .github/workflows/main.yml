@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build balena
-      run: ./balena-yocto-scripts/build/barys
+      run: ls -hal && ./balena-yocto-scripts/build/barys
       shell: bash
     - name: Run a multi-line script
       run: |
