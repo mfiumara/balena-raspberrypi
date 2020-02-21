@@ -12,5 +12,5 @@ jobs:
     - name: Checkout submodules
       uses: textbook/git-checkout-submodule-action@2.1.1
     - name: Build balena
-      run: ls -hal && ./balena-yocto-scripts/build/barys
+      run: ls -hal && sudo ./balena-yocto-scripts/build/barys
       shell: bash
